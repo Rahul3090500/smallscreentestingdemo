@@ -1,0 +1,259 @@
+.commonEmbed {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.instagramEmbed {
+  scale: 1.5;
+  margin-top: 13rem;
+}
+
+/* TikTok Embed Styles */
+.tiktokEmbed {
+  scale: 2.4;
+  margin-top: 410px;
+}
+
+.loader {
+  position: absolute;
+  z-index: 1;
+}
+.closeIcon {
+  z-index: 9999;
+  margin-bottom: 2rem;
+
+  cursor: pointer;
+}
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 199000;
+}
+
+.modalContent {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.4375rem;
+  position: relative;
+  overflow: hidden;
+}
+.youtubeContent {
+  max-width: 1980px;
+  min-width: 80vw;
+  max-height: 1080px;
+  min-height: 80vh;
+}
+
+.instagramContent {
+  max-width: 33.5625rem;
+  min-width: 29vw;
+  min-height: 80vh;
+  max-height: 47.1875rem;
+}
+
+.tiktokContent {
+  max-width: 33.5625rem;
+  min-width: 29vw;
+  min-height: 80vh;
+  max-height: 47.1875rem;
+}
+.youtubeEmbed {
+  height: 100%;
+
+  iframe {
+    position: absolute;
+    top: 0;
+  }
+}
+.embedContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .commonEmbed {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.instagramEmbed {
+  scale: 1.5;
+  margin-top: 13rem;
+}
+
+.tiktokEmbed {
+  scale: 2.4;
+  margin-top: 410px;
+}
+
+.loader {
+  position: absolute;
+  z-index: 1;
+}
+.closeIcon {
+  z-index: 9999;
+  margin-bottom: 2rem;
+
+  cursor: pointer;
+}
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 199000;
+}
+
+.modalContent {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.4375rem;
+  position: relative;
+  overflow: hidden;
+}
+.youtubeContent {
+  max-width: 1980px;
+  min-width: 95vw;
+  max-height: 1080px;
+  min-height: 37vh;
+}
+
+.instagramContent {
+  max-width: 33.5625rem;
+  min-width: 80vw;
+  min-height: 80vh;
+  max-height: 47.1875rem;
+}
+
+.tiktokContent {
+  max-width: 33.5625rem;
+  min-width: 80vw;
+  min-height: 80vh;
+  max-height: 47.1875rem;
+}
+.youtubeEmbed {
+  height: 100%;
+  iframe {
+    position: absolute;
+    top: 0;
+  }
+}
+.embedContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .commonEmbed {
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.instagramEmbed {
+  scale: 1.5;
+  margin-top: 13rem;
+}
+
+.tiktokEmbed {
+  scale: 2.4;
+  margin-top: 410px;
+}
+
+.loader {
+  position: absolute;
+  z-index: 1;
+}
+.closeIcon {
+  z-index: 9999;
+  margin-bottom: 2rem;
+
+  cursor: pointer;
+}
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 199000;
+}
+
+.modalContent {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.youtubeContent {
+  max-width: 1980px;
+  min-width: 95vw;
+  max-height: 1080px;
+  min-height: 25vh;
+}
+
+.instagramContent {
+  max-width: 33.5625rem;
+  min-width: 95vw;
+  min-height: 75vh;
+  max-height: 35.1875rem;
+}
+
+.tiktokContent {
+  max-width: 33.5625rem;
+  min-width: 95vw;
+  min-height: 75vh;
+  max-height: 35.1875rem;
+}
+.youtubeEmbed {
+  height: 100%;
+
+  iframe {
+    position: absolute;
+    top: 0;
+  }
+}
+.embedContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+}

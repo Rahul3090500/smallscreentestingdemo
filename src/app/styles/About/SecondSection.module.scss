@@ -1,0 +1,366 @@
+.SecondSection {
+  .Imagecontainer {
+    img {
+      position: relative !important;
+      object-fit: cover !important;
+    }
+  }
+  .ourValues {
+    padding-top: 11.6rem;
+    padding-bottom: 5.6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .first {
+      display: flex;
+      width: 80%;
+      margin-bottom: 7.7rem;
+      .left {
+        flex: 1;
+        margin-right: 3rem;
+
+        .heading {
+          color: #e35710;
+          font-size: 1rem;
+
+          //font-weight: 600;
+          line-height: 1.875rem;
+          margin-bottom: 1.1rem;
+        }
+        .subHeading {
+          color: #000;
+          font-size: 3.125rem;
+          font-family: var(--He-Md);
+
+          //font-weight: 600;
+          line-height: 3.4375rem;
+          margin-bottom: 0.6rem;
+          padding-top: 2rem;
+        }
+        .dec {
+          color: #000;
+          font-size: 1.3125rem;
+
+          //font-weight: 400;
+          line-height: 1.875rem;
+          width: 34.4375rem;
+        }
+      }
+      .right {
+        flex: 1;
+
+        img {
+          position: relative !important;
+          width: 40.75rem !important;
+          border-radius: 0.9375rem;
+          height: 37.125rem !important;
+        }
+      }
+    }
+    .second {
+      display: flex;
+      width: 80%;
+      margin-bottom: 7.7rem;
+
+      .left {
+        flex: 1;
+        margin-left: 3rem;
+
+        .heading {
+          color: #e35710;
+          font-size: 1rem;
+
+          //font-weight: 600;
+          margin-bottom: 1.1rem;
+
+          line-height: 1.875rem;
+        }
+        .subHeading {
+          color: #000;
+          font-size: 3.125rem;
+          font-family: var(--He-Md);
+
+          //font-weight: 600;
+          line-height: 3.4375rem;
+          padding-top: 2rem;
+        }
+        .dec {
+          color: #000;
+          font-size: 1.3125rem;
+
+          //font-weight: 400;
+          line-height: 1.875rem;
+          width: 34.4375rem;
+          margin-bottom: 0.6rem;
+        }
+      }
+      .right {
+        flex: 1;
+
+        img {
+          position: relative !important;
+          width: 40.75rem !important;
+          height: 37.125rem !important;
+          border-radius: 0.9375rem;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .SecondSection {
+    .Imagecontainer {
+      img {
+        height: 36.75rem !important;
+        position: relative !important;
+        object-fit: cover !important;
+      }
+    }
+    .ourValues {
+      padding-top: 4rem;
+      padding-bottom: 0rem;
+
+      .first {
+        width: 100%;
+        margin-bottom: 6.13rem;
+        .left {
+          flex: 1;
+          margin-right: 2.69rem;
+          .heading {
+            font-size: 1rem;
+            line-height: 1.875rem;
+            margin-bottom: 1.1rem;
+          }
+          .subHeading {
+            font-size: 1.75rem;
+            line-height: 1.75rem;
+            margin-bottom: 0.6rem;
+            padding-top: 1.6rem;
+          }
+          .dec {
+            font-size: 1.125rem;
+            line-height: 1.625rem;
+            width: 100%;
+          }
+        }
+        .right {
+          flex: 1;
+
+          img {
+            position: relative !important;
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 0.9375rem;
+          }
+        }
+      }
+      .second {
+        width: 100%;
+        margin-bottom: 6.13rem;
+        .left {
+          flex: 1;
+          margin-left: 2.69rem;
+          .heading {
+            font-size: 1rem;
+            line-height: 1.875rem;
+            margin-bottom: 1.1rem;
+          }
+          .subHeading {
+            font-size: 1.75rem;
+            line-height: 1.75rem;
+            margin-bottom: 0.6rem;
+            padding-top: 1.6rem;
+          }
+          .dec {
+            font-size: 1.125rem;
+            line-height: 1.625rem;
+            width: 100%;
+          }
+        }
+        .right {
+          flex: 1;
+
+          img {
+            position: relative !important;
+            width: 100% !important;
+            height: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .SecondSection {
+    .Imagecontainer {
+      img {
+        height: 25.75rem !important;
+        position: relative !important;
+        object-fit: cover !important;
+      }
+    }
+    .ourValues {
+      padding-top: 4rem;
+      padding-bottom: 0rem;
+
+      .first {
+        width: 100%;
+        margin-bottom: 6.13rem;
+        flex-direction: column-reverse;
+        .left {
+          flex: 1;
+          margin-left: 0;
+          margin-top: 1.2rem;
+          .heading {
+            font-size: 1rem;
+            line-height: 1.875rem;
+            margin-bottom: 1.1rem;
+          }
+          .subHeading {
+            font-size: 1.75rem;
+            line-height: 1.75rem;
+            margin-bottom: 0.6rem;
+            padding-top: 1.3rem;
+          }
+          .dec {
+            font-size: 1.125rem;
+            line-height: 1.625rem;
+            width: 100%;
+          }
+        }
+        .right {
+          flex: 1;
+
+          img {
+            position: relative !important;
+            width: 100% !important;
+            height: 100% !important;
+          }
+        }
+      }
+      .second {
+        width: 100%;
+        margin-bottom: 2.13rem;
+        flex-direction: column;
+        .left {
+          flex: 1;
+          margin-left: 0;
+          margin-top: 1.2rem;
+
+          .heading {
+            font-size: 1rem;
+            line-height: 1.875rem;
+            margin-bottom: 1.1rem;
+          }
+          .subHeading {
+            font-size: 1.75rem;
+            line-height: 1.75rem;
+            margin-bottom: 0.6rem;
+            padding-top: 1.3rem;
+          }
+          .dec {
+            font-size: 1.125rem;
+            line-height: 1.625rem;
+            width: 100%;
+          }
+        }
+        .right {
+          flex: 1;
+
+          img {
+            position: relative !important;
+            width: 100% !important;
+            height: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 300px) {
+  .SecondSection {
+    .Imagecontainer {
+      img {
+        height: 18.75rem !important;
+        position: relative !important;
+        object-fit: cover !important;
+      }
+    }
+    .ourValues {
+      padding-top: 2rem;
+      padding-bottom: 0rem;
+
+      .first {
+        width: 100%;
+        margin-bottom: 3.13rem;
+        flex-direction: column-reverse;
+        .left {
+          flex: 1;
+          margin-left: 0;
+          margin-top: 0.8rem;
+          .heading {
+            font-size: 0.9rem;
+            line-height: 1.775rem;
+            margin-bottom: 1rem;
+          }
+          .subHeading {
+            font-size: 1.3rem;
+            line-height: 1.25rem;
+            margin-bottom: 0.4rem;
+            padding-top: 1rem;
+          }
+          .dec {
+            font-size: 0.96rem;
+            line-height: 1.325rem;
+            width: 100%;
+          }
+        }
+        .right {
+          flex: 1;
+
+          img {
+            position: relative !important;
+            width: 100% !important;
+            height: 100% !important;
+          }
+        }
+      }
+      .second {
+        width: 100%;
+        margin-bottom: 2.13rem;
+        flex-direction: column;
+        .left {
+          flex: 1;
+          margin-left: 0;
+          margin-top: 1.2rem;
+          .heading {
+            font-size: 0.9rem;
+            line-height: 1.775rem;
+            margin-bottom: 1rem;
+          }
+          .subHeading {
+            font-size: 1.3rem;
+            line-height: 1.25rem;
+            margin-bottom: 0.4rem;
+            padding-top: 1rem;
+          }
+          .dec {
+            font-size: 0.96rem;
+            line-height: 1.325rem;
+            width: 100%;
+          }
+        }
+        .right {
+          flex: 1;
+
+          img {
+            position: relative !important;
+            width: 100% !important;
+            height: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
